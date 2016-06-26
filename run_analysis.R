@@ -11,7 +11,6 @@ library(dplyr)
 library(tidyr)
 rm(list = ls()) # clear workspace
 
-setwd("~/Documents/workspace/Coursera/Data_Science_Specialization/3 Getting & Cleaning Data/Assignments")
 
 #### Step 1: Read in table of variables ("features") and create vector with descriptive names
 feature_names<-read.table("./UCI HAR Dataset/features.txt",header = FALSE, sep = "", colClasses=c("numeric","character"))[,2]
